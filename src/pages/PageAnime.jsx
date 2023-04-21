@@ -7,8 +7,7 @@ const PageAnime = (props) => {
 
     return (
         <div>
-            <h1>Aled</h1>
-            <DetailsAnime/>
+        <DetailsAnime/>
         </div>
     );
 };
