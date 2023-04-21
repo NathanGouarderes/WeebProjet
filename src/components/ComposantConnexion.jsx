@@ -29,7 +29,10 @@ const ComposantConnexion = () => {
                                 <input className='inputConnexion' type="password" name="password" placeholder='Mot de passe' required/>
                             </div>
                             <div>
-                                <button className='boutonConnexion'>Se connecter</button>
+                                <NavLink to="/">
+                                    <button className='boutonConnexion'>Se connecter</button>
+                                </NavLink>
+                                
                             </div>
                         </div>
                 </div>
