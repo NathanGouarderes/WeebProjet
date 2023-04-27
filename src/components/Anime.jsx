@@ -46,11 +46,7 @@ const Anime = (props) => {
                 <div className='titre'>
                     <h2>{props.anime.title}</h2>
                 </div>
-                <div>
-                    <p className='aired'>{props.anime.genres[0].name} </p>
-                </div>
-                <button onClick={AfficherSynopis}>Afficher le texte</button>
-                {afficherText && synopis && <p className='synopsis'>{synopis}</p>}
+                
                 </NavLink>
             </li>
             </animated.div>

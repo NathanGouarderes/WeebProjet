@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const BoutonRetourAcceuil = () => {
     return (
         <div>
-            <NavLink>
+            <NavLink to="/">
                 <button>Retourner à l'acceuil</button>
             </NavLink>
         </div>

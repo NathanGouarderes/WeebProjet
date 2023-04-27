@@ -1,4 +1,5 @@
 import React from 'react';
+import BoutonRetourAcceuil from './BoutonRetourAcceuil';
 
 const DetailAnime = (props) => {
     console.log(props.anime)
@@ -12,6 +13,7 @@ const DetailAnime = (props) => {
             <p className='episodesDetailsAnime'>Episodes : {props.anime.episodes}</p>
             <p className='DetailsAnime'>Durée : {props.anime.duration}</p>
             <p>Année de sortie : {props.anime.year}</p>
+            <BoutonRetourAcceuil/>
             </div>
 
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
-import BarreDeRecherche from './BarreDeRecherche';
+import BarreDeRecherche from './BandeauBienvenue';
 
 const BandeauSuperieur = () => {
     return (

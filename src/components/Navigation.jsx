@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { animated, useSpring } from '@react-spring/web'
-import BarreDeRecherche from './BarreDeRecherche';
+import BarreDeRecherche from './BandeauBienvenue';
 
 
 const Navigation = () => {
@@ -23,9 +23,6 @@ const Navigation = () => {
                 </NavLink>
                 <NavLink to="/about">
                     <li className='li'>A propos</li>
-                </NavLink>
-                <NavLink to="/page">
-                    <li className='li'>Aled</li>
                 </NavLink>
                 <NavLink to="/connexion">
                     <li className='li'><img id='photoDeProfil' src="https://i.pinimg.com/236x/0f/97/84/0f97847db0ffe76db2ffabdd7d80cf6a--merovingian-christianity.jpg" alt="photoDeProfil" /></li>
