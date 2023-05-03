@@ -1,7 +1,6 @@
 import { useSpring, animated } from '@react-spring/web';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Navigation from '../components/Navigation';
 import BoutonRetourAcceuil from './BoutonRetourAcceuil';
 
 const ComposantConnexion = () => {
