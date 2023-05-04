@@ -63,13 +63,6 @@ h1 {
   margin: 20px;
 }
 
-
-li{
-  margin: 15px;
-  color: white;
-  list-style-type: none;
-}
-
 #photoDeProfil {
   border-radius: 90%;
   height: 40px;
@@ -100,6 +93,11 @@ li{
 .tousLesAnimes{
   display: flex; 
   flex-wrap: nowrap; 
+}
+.anime, li{
+  margin: 15px;
+  color: white;
+  list-style-type: none;
 }
 
 .titre{
@@ -304,6 +302,13 @@ select{
 
 .anneeDetailsAnime {
 }
+
+.Footer{
+  text-align: center;
+  font-size: 75%;
+  background-color: #1a1a1a;
+}
+
 
 
 button {

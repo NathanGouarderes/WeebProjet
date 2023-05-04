@@ -6,7 +6,7 @@ const BandeauSuperieur = () => {
     return (
         <div className='bandeauSuperieur'>
             <Navigation/>
-            <BarreDeRecherche/>
+            {/* <BarreDeRecherche/> */}
         </div>
     );
 };

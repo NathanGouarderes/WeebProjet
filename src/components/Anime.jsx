@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const Anime = (props) => {
-    console.log(props.anime)
+    // console.log(props.anime)
     const [synopis, setSynopsis] = useState("");
     const [afficherText, setAfficherText] = useState(false);
 
@@ -36,7 +36,7 @@ const Anime = (props) => {
                 ...springs,
             }}>
         
-            <li className="anime">
+            <div className="anime">
                 <NavLink to={"/anime/" + props.anime.mal_id}>
 
                 <div className='imageAnime'>
@@ -48,7 +48,7 @@ const Anime = (props) => {
                 </div>
                 
                 </NavLink>
-            </li>
+            </div>
             </animated.div>
         </div>
     );

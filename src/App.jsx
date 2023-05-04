@@ -7,6 +7,7 @@ import { MantineProvider, Text } from '@mantine/core';
 import PageAnime from "./pages/PageAnime";
 
 
+
 export default function App() {
   return (
     <div className="App">
